@@ -38,6 +38,11 @@ $('.nav__parent .btn-expand').click(function()
     _this.parent().addClass('is-active')
 });
 
+$(".header__search button").click(function() {
+    $('.search-header').toggleClass('is-active');
+});
+
+
 /* > bx slider */
 $('.header__stock .wrap').bxSlider({
     pager : false,
