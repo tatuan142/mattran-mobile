@@ -61,15 +61,6 @@ $('.event-timeline .wrap').bxSlider({
     slideMargin: 30
 });
 
-$('.album-box .wrap').bxSlider({
-    controls: false,
-    minSlides: 2,
-    maxSlides: 2,
-    moveSlides: 2,
-    slideWidth: 160,
-    slideMargin: 10
-});
-
 $('.fullSize-box-02 .wrap').bxSlider({
     minSlides: 1,
     maxSlides: 1,
